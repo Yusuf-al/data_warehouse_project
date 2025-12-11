@@ -93,19 +93,19 @@ Run:
 
 ------------------------------------------------------------------------
 ### 🔹 **Data Modeling Diagram**
-## Data Warehouse
+#### Data Warehouse
 <img width="761" height="530" alt="DWH" src="https://github.com/user-attachments/assets/721b6097-c5d8-4b1f-9f89-62b709e7d9aa" />
 
-## Data Integration
+#### Data Integration
 <img width="981" height="476" alt="intregation-model" src="https://github.com/user-attachments/assets/fb914748-ed6d-4cbf-bde7-37733be2cc54" />
 
-## Data Flow
+#### Data Flow
 <img width="861" height="570" alt="data-flow" src="https://github.com/user-attachments/assets/7ee4285b-0c97-4a51-af69-b89ae6fa132c" />
 
-## Data Model
+#### Data Model
 <img width="791" height="481" alt="data-model" src="https://github.com/user-attachments/assets/019b9246-32b1-4b15-b0c2-61a5fda91ca5" />
 
-## Author
+### Author
 
 **Yusuf Naiem**
 GitHub:*github.com/Yusuf-al*
