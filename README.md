@@ -15,35 +15,13 @@ EDA (Exploratory Data Analysis) - Advanced Data Analytics (ADA) -
 Automated reporting SQL scripts - Data modeling diagrams in `.drawio`
 format
 
-------------------------------------------------------------------------
-
-## Repository Structure
-
-    data_warehouse_project/
-    │
-    ├── DW-Create-Schemas.sql        # Schema creation for Bronze/Silver/Gold layers
-    ├── all-store-procedure.sql      # ETL automation stored procedures
-    ├── create-db-alter-name.sql     # Database initialization & naming
-    │
-    ├── EDA/
-    │   └── eda.sql                  # Full exploratory analysis on DW Gold layer
-    │
-    ├── advanced_DA/
-    │   ├── ada.sql                  # Advanced analytics queries (window functions, trends, KPIs)
-    │   └── reports.sql              # Business-ready SQL reports
-    │
-    ├── *.drawio                     # Data modeling diagrams (ERD, DWH flow, ETL logic)
-    └── README.md                    # Project documentation
-
-------------------------------------------------------------------------
-
 ## Key Features
 
 ### 🔹 **1. Data Warehouse Schema Design**
 
 Includes three layers: - **Bronze:** Raw ingestion tables - **Silver:**
 Cleaned and standardized tables - **Gold:** Star-schema optimized for
-analytics\
+analytics
 - Fact table: `fact_sales_details` - Dimensions: `dim_customers`,
 `dim_products`, etc.
 
@@ -66,11 +44,11 @@ category - Ranking analysis (Top-N/Bottom-N)
 
 Files: - `advanced_DA/ada.sql` - `advanced_DA/reports.sql`
 
-Contains: - Window functions\
-- Change-over-time metrics\
-- Cumulative calculations\
-- Moving averages\
-- Product & customer performance\
+Contains: - Window functions
+- Change-over-time metrics
+- Cumulative calculations
+- Moving averages
+- Product & customer performance
 - Executive-level reporting metrics
 
 ### 🔹 **5. Data Modeling Diagrams (.drawio files)**
@@ -117,8 +95,7 @@ Run:
 
 ## Author
 
-**Yusuf Naiem**\
-Data Engineering & Analytics Enthusiast\
+**Yusuf Naiem**
 GitHub: *github.com/Yusuf-al*
 
 ------------------------------------------------------------------------
